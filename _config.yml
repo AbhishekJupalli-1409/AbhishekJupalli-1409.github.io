@@ -1,18 +1,28 @@
+title: "Abhishek Hoempage"
+description: "Bookmark this site for updates"
 
-name: Jekyll Themes
-url: http://matt.harzewski.com
-title: Abhishek's homepage
-description: Bookmark this to keep an eye on my project updates!
 
-permalink: /themes/:title/
+theme: "jekyll-theme-chirpy"
 
-plugins: [jekyll-paginate]
+# About author
+author:
+  name: "Abhishek"
+  bio: "I am me myself"
+  avatar: "/assets/img/sample_avatar.jpg"
 
-highlighter: pygments
-paginate: 20
+# Sidebar settings
+sidebar:
+  pinned_posts: true
+  position: left
 
-markdown: rdiscount
-rdiscount:
-    extensions: ['smart']
-github:
-  username: github_username # change to your GitHub username
+# Social links
+social:
+  twitter: "your_twitter_handle"
+  github: "your_github_handle"
+  linkedin: "your_linkedin_handle"
+
+# Plugin settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
