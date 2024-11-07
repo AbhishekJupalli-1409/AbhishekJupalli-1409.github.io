@@ -1,8 +1,6 @@
+theme: "jekyll-theme-chirpy"
 title: "Abhishek Hoempage"
 description: "Bookmark this site for updates"
-
-
-theme: "jekyll-theme-chirpy"
 
 # About author
 author:
